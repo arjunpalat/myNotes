@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RlciIsImlkIjoiNjVmMmE1NTI3YTI1MGVlY2IzM2FhYzFkIiwiaWF0IjoxNzEwNDA2NTQwfQ.kS-U6qaUPyXDj1BFht3AwSJCt3UljbBDBxVtt-vGCsg
+
+{
+  "content": "Remember to buy groceries: milk, eggs, bread, and fruits.",
+  "title": "Grocery List"
+}
